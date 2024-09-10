@@ -1,3 +1,16 @@
+Responsiveness is handled through Tailwind’s utility classes. The grid layout in App.js will adjust according to the screen size:
+<div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-6">
+
+This ensures:
+1 column on small screens,
+2 columns on medium screens (md),
+3 columns on large screens (lg).
+
+My project will now have the following:
+A form to submit data.
+A responsive grid that displays the submitted data in cards.
+Interactive buttons with hover effects.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
